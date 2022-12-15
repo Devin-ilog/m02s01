@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Aula 3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header, footer {
+            background-color: #283747;
+            color: white;
+            align-items: center;
+        }
+
+        header {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        header div {
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 4px;
+        }
+        header nav {
+            width: 400px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        header nav a {
+            color: white;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 5;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        section {
+            border: 1px solid #283747;
+            height: 50%;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            font-size: 1.1rem;
+        }
+        footer span {
+            font-style: italic;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div>
+            logotipo
+        </div>
+        <nav>
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            seção 1
+        </section>
+        <section>
+            seção 2
+        </section>
+    </main>
+
+    <footer>
+        <div>rodapé <span>2022</span></div>
+    </footer>
+
+</body>
+</html>
