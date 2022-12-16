@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+body {
+    background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 50%;
+    height: 500px;
+    padding: 60px;
+}
+
+.titulo-form {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.input-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-dados input {
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-dados button {
+    background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.texto-form  {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+.botoes-social {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.botoes-social button {
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.botoes-social button i {
+    margin-right: 10px;
+}
+
+#btn-twitter {
+    background: #0000FF;
+    background: -moz-linear-gradient(left, #0000FF 0%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #0000FF 0%, #FFFFFF 100%);
+    background: linear-gradient(to right, #0000FF 0%, #FFFFFF 100%);
+}
+
+#btn-facebook {
+    background: linear-gradient(to right, #00FF00 0%, #e4e4e4 100%);   
+}
